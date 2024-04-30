@@ -81,7 +81,7 @@ class Program
 {
     static void Main()
     {
-        // Создаем студентов
+  
         var students = new Student[]
         {
             new Student("Иванов А.А.", "Группа 1", 20),
@@ -90,7 +90,7 @@ class Program
             new Student("Смирнов А.А.", "Группа 4", 20)
         };
 
-        // Создание читателей библиотеки
+    
         var readers = new Reader[]
         {
             new Reader("Иванов Андрей", 12345, "Исторический", new DateTime(1990, 5, 15), "+9375461222"),
@@ -99,7 +99,7 @@ class Program
             new Reader("Смирнов Александр", 45677, "Медицинский", new DateTime(1993, 5, 17), "+9265646634")
         };
 
-        // Пример использования методов
+    
         readers[0].TakeBook(3);
         readers[1].TakeBook("Приключения", "Словарь", "Энциклопедия");
         readers[2].ReturnBook("Путешествия", "Роман");
